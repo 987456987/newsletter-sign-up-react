@@ -10,6 +10,7 @@ export default function App() {
     <div className='App'>
       <div className='container'>
         <div className='form-container'>
+          <img className='mobile-img' src={mobileImg}/>
           <h1>Stay updated!</h1>
           <p style={{ padding: '1.5em 0' }}>Join 60,000+ product managers receiving monthly updates on:</p>
           <ul>

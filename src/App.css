@@ -60,7 +60,7 @@ body {
   flex: 1;
   display: grid;
   
-  margin: 0 5%;
+  margin: 0 2em;
   
   max-width: 425px;
 
@@ -74,6 +74,10 @@ body {
   object-fit: contain;
 
   margin-left: 1.5em;
+}
+
+.mobile-img{
+  display: none;
 }
 
 h1{
@@ -126,4 +130,31 @@ button{
   color: var(--white);
 
   font-weight: bold;
+}
+
+@media (max-width: 900px){
+  .form-container{
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px){
+  .desktop-img{
+    display: none;
+  }
+
+  .mobile-img{
+    display: block;
+  }
+
+  .container{
+    max-width: none;
+    max-height: none;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+    border-radius: 0;
+
+  }
+  
 }
