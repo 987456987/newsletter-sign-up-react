@@ -51,16 +51,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  display: none;
-
-  
 }
 
 .success-container{
   max-width: 475px;
   padding: 1em 3em;
+  display: none;
 }
+
+.container-hidden{
+  display: none;
+}
+.container-block{
+  display: block;
+}
+
 
 .form-container{
   flex: 1;
@@ -126,6 +131,7 @@ input{
 
 input:focus{
   outline: none;
+  border-color: var(--dark-slate-grey);
 }
 
 button{
