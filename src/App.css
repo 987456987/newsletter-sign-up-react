@@ -207,16 +207,17 @@ button:hover {
     max-height: none;
     min-width: 100vw;
     min-height: 100vh;
-    
     border-radius: 0;
-
     padding: 0;
+  }
+
+  .success-container{
+    margin: auto;
+    margin-top: 30%;
   }
 
   .container{
     flex-direction: column;
-
-    
   }
 
   .form-container{
