@@ -129,6 +129,26 @@ button{
   font-weight: bold;
 }
 
+.input-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error-text{
+  color: tomato;
+  display: none;
+}
+
+.error-text-display{
+  display: block;
+}
+
+.error-input {
+  background-color: hsl(4, 100%, 67%, 25%);
+  color: var(--tomato)
+}
+
+
 @media (max-width: 900px){
   .form-container{
     margin: 0;
