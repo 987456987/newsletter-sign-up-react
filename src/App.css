@@ -36,14 +36,7 @@
   background-color: var(--dark-slate-grey);
 }
 
-
-.container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin: auto;
-
+.main {
   background-color: var(--white);
 
   max-height: 70vh;
@@ -51,6 +44,22 @@
 
   padding: 1.5em;
   border-radius: 30px;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: none;
+
+  
+}
+
+.success-container{
+  max-width: 475px;
+  padding: 1em 3em;
 }
 
 .form-container{
@@ -75,6 +84,7 @@
 
 h1{
   font-size: 3.5rem;
+  line-height: 1em;
 }
 
 ul {
