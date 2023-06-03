@@ -206,9 +206,7 @@ button:hover {
     margin-bottom: 2em;
   }
 
-  .container{
-    flex-direction: column;
-
+  .main {
     max-width: none;
     max-height: none;
     min-width: 100vw;
@@ -217,6 +215,12 @@ button:hover {
     border-radius: 0;
 
     padding: 0;
+  }
+
+  .container{
+    flex-direction: column;
+
+    
   }
 
   .form-container{
