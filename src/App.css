@@ -129,6 +129,12 @@ button{
   font-weight: bold;
 }
 
+button:hover {
+  background-color: var(--tomato);
+  background: linear-gradient(90deg, hsl(346, 100%, 66%), var(--tomato));
+  box-shadow: 0px 10px 25px var(--tomato);
+}
+
 .input-labels {
   display: flex;
   justify-content: space-between;
