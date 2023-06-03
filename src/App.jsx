@@ -9,8 +9,8 @@ export default function App() {
   return (
     <div className='App'>
       <div className='container'>
+        <img className='mobile-img' src={mobileImg}/>
         <div className='form-container'>
-          <img className='mobile-img' src={mobileImg}/>
           <h1>Stay updated!</h1>
           <p style={{ padding: '1.5em 0' }}>Join 60,000+ product managers receiving monthly updates on:</p>
           <ul>
@@ -29,7 +29,7 @@ export default function App() {
           </ul>
           <form>
             <label htmlFor="email">Email address</label>
-            <input type='email' id='email' />
+            <input type='email' id='email' placeholder='email@company.com'/>
             <button>Subscribe to monthly newsletter</button>
           </form>
         </div>
