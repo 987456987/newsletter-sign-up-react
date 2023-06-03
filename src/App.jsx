@@ -7,11 +7,11 @@ import mobileImg from './assets/images/illustration-sign-up-mobile.svg';
 export default function App() {
  
   return (
-    <>
-      <div className='form-container'>
-        <form>
+    <div className='App'>
+      <div className='container'>
+        <div className='form-container'>
           <h1>Stay updated!</h1>
-          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <p style={{ padding: '1.5em 0' }}>Join 60,000+ product managers receiving monthly updates on:</p>
           <ul>
             <li>
               <img src={ iconList } alt="check mark" />
@@ -26,10 +26,15 @@ export default function App() {
               <p>And much more!</p>
             </li>
           </ul>
-        </form>
+          <form>
+            <label htmlFor="email">Email address</label>
+            <input type='email' id='email' />
+            <button>Subscribe to monthly newsletter</button>
+          </form>
+        </div>
         <img className='desktop-img' src={ desktopImg } alt=''/>
       </div>
-    </>
+    </div>
   )
 }
 
